@@ -1,1 +1,1 @@
-# Act2.
+1- Crea un compte de GitHub. 2- Creeu un nou repositori a GitHub 3- Heu de clonar el repositori amb Git "git clone (URL del repositori)" 4- Treballeu en "cd" local (nom del repositori)" 5- Afegiu alguns canvis "git add (E1Github.md) 6- Fes un commit "git commit -m "Posa un missatge per a la descripció"" 7- Abans de pujar, has de validar si els canvis són o no "git pull origin main" 8- Quan valideu que tot està bé, heu de pujar els canvis al repositori "git push origin main" 9- Després de pujar, poseu "nano E1Github.md" per escriure dins del document.
