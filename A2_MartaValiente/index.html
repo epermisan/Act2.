@@ -1,0 +1,65 @@
+How to use Git.
+Step 1: Install Git
+First, you need to install Git on your machine. You can download Git from the official website: Git Downloads.
+
+Step 2: Configure Git
+Before using Git, it's necessary to configure your username and email address.
+This will be used to identify your contributions. Open your terminal (if you're on Windows, you can use Git Bash) and run the following commands:
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+Step 3: Create a Repository
+A Git repository is where you'll store your code and track changes. You can create a new one or clone an existing repository.
+To create a new repository, navigate to your project directory and run:
+
+git init
+
+Step 4: Add and Commit Changes
+Add your files to the staging area using the following command:
+
+git add filename
+
+To add all changed files, you can use:
+
+git add .
+
+Now, make your first commit:
+
+git commit -m "Descriptive message of the change"
+
+Step 5: View Change History
+You can view the change history using:
+
+git log
+
+This command will display a list of all commits in your repository.
+
+Step 6: Branches
+Branches allow you to work on features or bug fixes without affecting the main branch (usually called main or master).
+To create a new branch and switch to it, you can use:
+
+git branch branch_name
+git checkout branch_name
+
+Or simply combine both commands into one:
+
+git checkout -b branch_name
+
+Step 7: Merge Branches
+When you've finished working on a branch and want to incorporate the changes into the main branch,
+use the following command (make sure you're on the branch you want to merge):
+
+git merge branch_name
+
+Step 8: Clone an Existing Repository
+If you want to contribute to an existing project, you can clone a repository. To do this, use:
+
+git clone repository_url
+
+Step 9: Push Changes to a Remote Repository
+If you have a repository on GitHub (or another similar service), you can push your changes using:
+
+git push origin branch_name
+
+<h1>https://git-scm.com/doc</h1>
